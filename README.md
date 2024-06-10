@@ -17,4 +17,5 @@ npx prisma db push
 ```sh
 npm run dev
 ```
+
 # ci-cd-blog

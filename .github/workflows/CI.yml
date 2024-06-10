@@ -10,7 +10,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     services:
@@ -29,7 +28,7 @@ jobs:
           --health-retries=5
 
     env:
-      DATABASE_URL: "postgresql://blog:password@localhost:5432/blog"
+      DATABASE_URL: 'postgresql://blog:password@localhost:5432/blog'
 
     steps:
       - name: Checkout repository
