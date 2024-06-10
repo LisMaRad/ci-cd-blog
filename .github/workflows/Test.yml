@@ -13,4 +13,4 @@ jobs:
       - name: Run tests
         run: npm run testProduction
         env:
-          BASE_URL: ${{ github.event.deployment_status.environment_url }}
+          TEST_BASE_URL: ${{ github.event.deployment_status.environment_url }}
